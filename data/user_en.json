@@ -45,7 +45,7 @@
                     "city": "Online",
                     "description": {
                         "text": ["http://www.udacity.com/"],
-                        "html": "<a href='http://www.udacity.com/'>http://www.udacity.com/</a>"
+                        "html": "<a href='http://www.udacity.com/' target='_blank'>http://www.udacity.com/</a>"
                     }
                 },
                 {
@@ -55,7 +55,7 @@
                     "city": "Online",
                     "description": {
                         "text": ["https://www.ai-class.com/"],
-                        "html": "<a href='https://www.ai-class.com/'>https://www.ai-class.com/</a>"
+                        "html": "<a href='https://www.ai-class.com/' target='_blank'>https://www.ai-class.com/</a>"
                     }
                 },
                 {
@@ -65,7 +65,7 @@
                     "city": "Online",
                     "description": {
                         "text": ["http://www.ml-class.org/course/auth/welcome"],
-                        "html": "<a href='http://www.ml-class.org/course/auth/welcome'>http://www.ml-class.org/course/auth/welcome</a>"
+                        "html": "<a href='http://www.ml-class.org/course/auth/welcome' target='_blank'>http://www.ml-class.org/course/auth/welcome</a>"
                     }
                 },
                 {
@@ -276,15 +276,15 @@
         "title": "Proyectos",
         "items": [
         {
-            "html": "Aplicación web: Red internacional de familias <a href='https://www.ifamilynetworks.com'>https://www.ifamilynetworks.com</a>",
+            "html": "Aplicación web: Red internacional de familias <a href='https://www.ifamilynetworks.com' target='_blank'>https://www.ifamilynetworks.com</a>",
             "text": "Aplicación web: Red internacional de familias https://www.ifamilynetworks.com"
         },
         {
-            "html": "Aplicación web: Lector de libros con analisis semantico <a href='https://www.linkgua-books.com'>https://www.linkgua-books.com</a>",
+            "html": "Aplicación web: Lector de libros con analisis semantico <a href='https://www.linkgua-books.com' target='_blank'>https://www.linkgua-books.com</a>",
             "text": "Aplicación web: Lector de libros con analisis semantico https://www.linkgua-books.com"
         },
         {
-            "html": "Aplicación web: Lector de noticias con analisis semantico <a href='https://www.linkgua-semantic.com'>https://www.linkgua-semantic.com</a>",
+            "html": "Aplicación web: Lector de noticias con analisis semantico <a href='https://www.linkgua-semantic.com' target='_blank'>https://www.linkgua-semantic.com</a>",
             "text": "Aplicación web: Lector de noticias con analisis semantico https://www.linkgua-semantic.com"
         },
         {
