@@ -31,5 +31,8 @@ node_modules
 
 # Optional REPL history
 .node_repl_history
+<<<<<<< HEAD
 
 config.rb
+=======
+>>>>>>> 13c90ad3fd7e2fdd7bb3a3defb2bb39d417bc164
