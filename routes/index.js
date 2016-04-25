@@ -7,19 +7,22 @@ var router = express.Router();
 /* GET home page. */
 router.get('/', function(req, res, next) {
     data = userDataES;
-    data.language = "en";
+    data.language = "es";
+    data.nextLanguage = "en";
     res.render('index', data);
 });
 
 router.get('/es', function(req, res, next) {
     data = userDataES;
-    data.language = "en";
+    data.language = "es";
+    data.nextLanguage = "en";
     res.render('index', data);
 });
 
 router.get('/en', function(req, res, next) {
     data = userDataEN;
-    data.language = "es";
+    data.language = "en";
+    data.nextLanguage = "es";
     res.render('index', data);
 });
 
