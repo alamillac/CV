@@ -1,0 +1,310 @@
+{
+    "title": "Andres Lamilla",
+    "user": {
+        "firstname": "Andrés",
+        "lastname": "Lamilla",
+        "profession": "Ingeniero Electrónico",
+        "address": "Barcelona (España)",
+        "address1": "Calle Corcega 573",
+        "address2": "08025 Barcelona (España)",
+        "tel": "+34 644325458",
+        "email": "andres@lamillac.com"
+    },
+    "description": "Entusiasta de la robótica y la programación. Amante de los retos y desafíos. Interesado en la investigación y desarrollo de soluciones informáticas. Con grandes deseos por aplicar y aprender nuevos temas cada día. Con experiencia en manejo de servidores linux, programación en diferentes lenguajes y aplicacion de algoritmos de aprendizaje automático.",
+    "studies": {
+        "academic": {
+            "title": "Formación académica",
+            "items": [
+                {
+                    "year": "2012-",
+                    "degree": "Master in Artificial Intelligence",
+                    "university": "Universidad Politecnica de Catalunya",
+                    "city": "Barcelona"
+                },
+                {
+                    "year": "2006-2010",
+                    "degree": "Ingeniería Electrónica",
+                    "university": "Escuela Colombiana de Ingeniería",
+                    "city": "Bogota"
+                }
+            ]
+        },
+        "other": {
+            "title": "Formación complementaria",
+            "items": [
+                {
+                    "year": "2012",
+                    "degree": "Curso de seguridad informatica",
+                    "university": "Jedi junior empresa",
+                    "city": "Barcelona"
+                },
+                {
+                    "year": "2012",
+                    "degree": "Building a Search Engine",
+                    "university": "Curso gratuito ofrecido por Udacity",
+                    "city": "Online",
+                    "description": {
+                        "text": ["http://www.udacity.com/"],
+                        "html": "<a href='http://www.udacity.com/'>http://www.udacity.com/</a>"
+                    }
+                },
+                {
+                    "year": "2011",
+                    "degree": "Introduction to Artificial Intelligence",
+                    "university": "Curso gratuito ofrecido por Stanford",
+                    "city": "Online",
+                    "description": {
+                        "text": ["https://www.ai-class.com/"],
+                        "html": "<a href='https://www.ai-class.com/'>https://www.ai-class.com/</a>"
+                    }
+                },
+                {
+                    "year": "2011",
+                    "degree": "Machine Learning",
+                    "university": "Curso gratuito ofrecido por Stanford",
+                    "city": "Online",
+                    "description": {
+                        "text": ["http://www.ml-class.org/course/auth/welcome"],
+                        "html": "<a href='http://www.ml-class.org/course/auth/welcome'>http://www.ml-class.org/course/auth/welcome</a>"
+                    }
+                },
+                {
+                    "year": "2011",
+                    "degree": "Curso de inglés",
+                    "university": "EF International Language Centers",
+                    "city": "Seattle",
+                    "description": {
+                        "text": ["Realizado entre Abril y Septiembre"]
+                    }
+                },
+                {
+                    "year": "2010",
+                    "degree": "Simposio STSIVA",
+                    "university": "Escuela Colombiana de Ingeniería",
+                    "city": "Bogotá",
+                    "description": {
+                        "text": ["Simposio de tratamiento de señales, imágenes y visión artificial"]
+                    }
+                },
+                {
+                    "year": "2010",
+                    "degree": "Minicurso Visión infrarroja",
+                    "university": "Escuela Colombiana de Ingeniería",
+                    "city": "Bogotá",
+                    "description": {
+                        "text": ["Visión infrarroja: Teoría y aplicaciones, durante el simposio STSIVA"]
+                    }
+                },
+                {
+                    "year": "2009",
+                    "degree": "Curso de microcontroladores Freescale",
+                    "university": "Escuela Colombiana de Ingeniería",
+                    "city": "Bogotá",
+                    "description": {
+                        "text": ["Programación de microcontroladores Freescale organizado por la rama estudiantil de la IEEE"]
+                    }
+                }
+            ]
+        }
+    },
+    "languages": {
+        "title": "Idiomas",
+        "items": [
+            {
+                "name": "Español",
+                "level": "Nativo"
+            },
+            {
+                "name": "Inglés",
+                "level": "Nivel medio"
+            }
+        ]
+    },
+    "awards": {
+        "title": "Premios",
+        "items": [
+            {
+                "year": "2009",
+                "field": "Robótica",
+                "name": "V Olimpiada Nacional de Robot Ecibot, Escuela Colombiana de Ingeniería",
+                "city": "Bogotá",
+                "description": {
+                    "text": ["Primer puesto en la categoría seguidor de línea básico"]
+                }
+            }
+        ]
+    },
+    "experience": {
+        "title": "Experiencia",
+        "subsections": [
+            {
+                "title": "Profesional",
+                "list": [
+                {
+                    "year": "2014-",
+                    "title": "Programador web",
+                    "place": "Visual Engineering",
+                    "city": "Barcelona",
+                    "description": {
+                        "text": [
+                            "Durante mi estancia en Visual estuve encargado de implementar diferentes soluciones web y mobile, dentro de las cuales están:",
+                            "Desarrollar una red social de familias usando el framework de python Django.",
+                            "Corregir bugs e incidencias en la app mobile de Zara para Blackberry.",
+                            "Incrementar la cobertura de tests para la app web mobile de Zara.",
+                            "Desarrollar una single-page application de venta de camisas para Massimo Dutti.",
+                            "Adición de algunas funcionalidades a app web para gas natural"
+                        ]
+                    }
+                },
+                {
+                    "year": "2014-",
+                    "title": "Programador web, Sys-admin",
+                    "place": "Linkgua Semantic",
+                    "city": "Barcelona",
+                    "description": {
+                        "text": [
+                            "Estuve en el equipo de desarrollo de esta aplicación web de lectura con análisis semantico. Me encargué de crear toda la estructura para ponerla en producción y gestionar los deploys. Ahora me encargo de mantener su correcto funcionamiento."
+                        ]
+                    }
+                },
+                {
+                    "year": "2012-2014",
+                    "title": "Operaciones",
+                    "place": "Spamina",
+                    "city": "Barcelona",
+                    "description": {
+                        "text": [
+                            "Realización de scripts para automatización de tareas.",
+                            "Monitorización y control de servidores.",
+                            "Manejo de incidencias en los sistemas."
+                        ]
+                    }
+                }
+                ]
+            },
+            {
+                "title": "Otros",
+                "list": [
+                {
+                    "year": "2011",
+                    "title": "Especialista en sistemas de vigilancia",
+                    "place": "Activar",
+                    "city": "Bogota",
+                    "description": {
+                        "text": [
+                            "Instalación y mantenimiento de sistema de vigilancia en servidores con Zoneminder."
+                        ]
+                    }
+                }
+                ]
+            }
+        ]
+    },
+    "skills": {
+        "title": "Conocimientos",
+        "list": [
+        {
+            "name": "SO",
+            "list": [
+                "Gnu/Linux (Debian, Ubuntu, Arch-linux, Mandriva, RedHat, Fedora, CentOS)",
+                "FreeBSD",
+                "Windows"
+            ]
+        },
+        {
+            "name": "Programación Web",
+            "list": [
+                "Django", "Flask", "PhalconPHP", "Node", "Backbonejs", "Emberjs", "jQuery"
+            ]
+        },
+        {
+            "name": "Programación",
+            "list": [
+                "Javascript", "C/C++", "Python", "PHP", "Ruby", "Java", "Matlab/Octave", "Bash/Shell", "Latex"
+            ]
+        },
+        {
+            "name": "Bases de datos",
+            "list": [
+                "MySQL", "MongoDB"
+            ]
+        },
+        {
+            "name": "Diseño Web",
+            "list": [
+                "HTML5", "CSS3", "SASS"
+            ]
+        },
+        {
+            "name": "Librerías IA",
+            "list": [
+                "OpenCV", "FANN", "scikit-learn"
+            ]
+        },
+        {
+            "name": "Herramientas Linux",
+            "list": [
+                "Nagios", "Ansible", "Docker", "KVM", "Virt-manager", "BackupPC", "Dokuwiki", "Wikimedia", "Logstash/Kibana", "sed"
+            ]
+        },
+        {
+            "name": "Utilidades Web",
+            "list": [
+                "RequireJS", "Grunt", "Bower", "Mocha", "Jasmine"
+            ]
+        }
+        ]
+    },
+    "hobbies": {
+        "title": "Intereses",
+        "items": [
+        {
+            "text": "Fútbol"
+        },
+        {
+            "text": "Hiking"
+        },
+        {
+            "text": "Ciclísmo"
+        },
+        {
+            "text": "Running"
+        }
+        ]
+    },
+    "projects": {
+        "title": "Proyectos",
+        "items": [
+        {
+            "html": "Aplicación web: Red internacional de familias <a href='https://www.ifamilynetworks.com'>https://www.ifamilynetworks.com</a>",
+            "text": "Aplicación web: Red internacional de familias https://www.ifamilynetworks.com"
+        },
+        {
+            "html": "Aplicación web: Lector de libros con analisis semantico <a href='https://www.linkgua-books.com'>https://www.linkgua-books.com</a>",
+            "text": "Aplicación web: Lector de libros con analisis semantico https://www.linkgua-books.com"
+        },
+        {
+            "html": "Aplicación web: Lector de noticias con analisis semantico <a href='https://www.linkgua-semantic.com'>https://www.linkgua-semantic.com</a>",
+            "text": "Aplicación web: Lector de noticias con analisis semantico https://www.linkgua-semantic.com"
+        },
+        {
+            "text": "Puesta en funcionamiento y mantenimiento de servidores Linux para sistemas de vigilancia, realizado para Activar SA"
+        },
+        {
+            "text": "Manejo de dispositivos remotos mediante comandos gestuales, realizado para la materia de Vision Artificial en la Escuela Colombiana de Ingeniería"
+        },
+        {
+            "text": "Robot seguidor de linea y de resolución de laberintos, realizado para participar en la V Olimpiada Nacional de Robot Ecibot"
+        },
+        {
+            "text": "Collar de perros con localizador por GPS, Proyecto realizado en la Universidad"
+        },
+        {
+            "text": "Página web del juego tres en línea 3D con adversario del sistema para probar el algoritmo min max"
+        },
+        {
+            "text": "Reconocimiento de figuras geométricas y números de placas mediante cámara web. Proyecto realizado para reforzar el conocimiento de visión artificial"
+        }
+        ]
+    }
+}

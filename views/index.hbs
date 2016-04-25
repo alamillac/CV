@@ -1,0 +1,46 @@
+<main class="mainContainer">
+    <header class="header">
+        <div class="wrapper">
+            <div class="name">
+                <h1>{{user.firstname}} {{user.lastname}}</h1>
+                <h3>{{user.profession}}</h3>
+            </div>
+            <div class="contact">
+                <div class="picture">
+                    <img src="images/foto.jpg">
+                </div>
+                <address>
+                    <a class="_change_language" href="{{language}}"><i class="fa fa-language" aria-hidden="true" style="font-size: 20px;"></i></a>
+                    <br />
+                    {{user.address}}
+                    <br />
+                    <i class="fa fa-mobile"></i>{{user.tel}}
+                    <br />
+                    <i class="fa fa-envelope-o"></i><a href="mailto:{{user.email}}">{{user.email}}</a>
+                </address>
+            </div>
+        </div>
+    </header>
+    <div class="description">
+        {{description}}
+    </div>
+
+    {{> section_studies studies.academic }}
+
+    {{> section_studies studies.other }}
+
+    {{> section_experience experience }}
+
+    {{> section_languages languages }}
+
+    {{> section_awards awards }}
+
+    {{> skills skills=skills }}
+
+    {{> list list=hobbies circle=true }}
+
+    {{> list list=projects }}
+
+</main>
+{{> footer }}
+{{> scripts }}

@@ -1,0 +1,13 @@
+<article class="section">
+    <header class="section-header">
+        <div class="left-info">
+            <div class="line"></div>
+        </div>
+        <h4 class="right-info">{{title}}</h4>
+    </header>
+    <div class="section-content">
+    {{#each items}}
+    {{> subsection_element sideNote=name title=level }}
+    {{/each}}
+    </div>
+</article>

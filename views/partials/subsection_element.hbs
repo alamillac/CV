@@ -1,0 +1,30 @@
+<div class="section-element">
+    <p class="left-info">
+        {{sideNote}}
+    </p>
+    {{#if description}}
+    <div class="right-info">
+        <p>
+            <strong>{{title}},</strong> <em>{{place}},</em> {{city}}.
+        </p>
+        <p class="element-description">
+            {{#if description.html}}
+                {{{description.html}}}
+            {{else}}
+                {{#each description.text}}
+                    {{#if @last}}
+                    {{this}}
+                    {{else}}
+                    {{this}}
+                    <br />
+                    {{/if}}
+                {{/each}}
+            {{/if}}
+        </p>
+    </div>
+    {{else}}
+    <p class="right-info">
+        <strong>{{title}}{{#if place}},{{/if}}</strong> {{#if place}}<em>{{place}},</em> {{city}}.{{/if}}
+    </p>
+    {{/if}}
+</div>

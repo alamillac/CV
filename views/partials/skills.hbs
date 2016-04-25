@@ -1,0 +1,22 @@
+<article class="section">
+    <header class="section-header">
+        <div class="left-info">
+            <div class="line"></div>
+        </div>
+        <h4 class="right-info">{{skills.title}}</h4>
+    </header>
+    {{#each skills.list}}
+        {{#if @first}}
+        <div class="section-wrapper">
+        {{/if}}
+        {{> skill skill=this }}
+        {{#if @last}}
+        </div>
+        {{else}}
+            {{#isIndexEven @index}}
+            </div>
+            <div class="section-wrapper">
+            {{/isIndexEven}}
+        {{/if}}
+    {{/each}}
+</article>

@@ -1,0 +1,18 @@
+<div class="section-content-2">
+    <div class="section-element">
+        <p class="left-info">
+            {{skill.name}}
+        </p>
+        <div class="right-info">
+            <p>
+                {{#each skill.list}}
+                    {{#if @last}}
+                    {{this}}
+                    {{else}}
+                    {{this}},
+                    {{/if}}
+                {{/each}}
+            </p>
+        </div>
+    </div>
+</div>

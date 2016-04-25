@@ -1,0 +1,137 @@
+\documentclass[11pt,a4paper]{moderncv}
+
+% moderncv themes
+\moderncvtheme[blue]{classic}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+%\moderncvtheme[green]{classic}                % idem
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                     % if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+%\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+% personal data
+\firstname{Andrés}
+\familyname{Lamilla}
+\title{Ingeniero Electrónico}               % optional, remove the line if not wanted
+\address{Calle Corcega 573}{08025 Barcelona (España)}    % optional, remove the line if not wanted
+%\mobile{+34 644325458}                    % optional, remove the line if not wanted
+%\phone{+571 6958419}                      % optional, remove the line if not wanted
+%\fax{fax (optional)}                          % optional, remove the line if not wanted
+\email{andres@lamillac.com}                      % optional, remove the line if not wanted
+%\homepage{homepage (optional)}                % optional, remove the line if not wanted
+%\extrainfo{additional information (optional)} % optional, remove the line if not wanted
+\photo[64pt]{foto}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+\quote{Entusiasta de la robótica y la programación. Amante de los retos y desafíos. Interesado en la investigación y desarrollo de soluciones informáticas. Con grandes deseos por aplicar y aprender nuevos temas cada día. Con experiencia en manejo de servidores linux, programación en diferentes lenguajes y aplicacion de algoritmos de aprendizaje automático.}                 % optional, remove the line if not wanted
+
+% to show numerical labels in the bibliography; only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+%\section{Perfil Profesional}
+
+\section{Formación académica}
+\cventry{2012--}{Master in Artificial Intelligence}{Universidad Politecnica de Catalunya}{Barcelona}{}{}
+\cventry{2006--2010}{Ingeniería Electrónica}{Escuela Colombiana de Ingeniería}{Bogotá}{}{}  % arguments 3 to 6 can be left empty
+%\cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}
+
+\section{Formación complementaria}
+\cventry{2012}{Curso de seguridad informatica}{Jedi junior empresa}{Barcelona}{}{}
+\cventry{2012}{Building a Search Engine}{Curso gratuito ofrecido por Udacity}{Online}{}{http://www.udacity.com/}
+\cventry{2011}{Introduction to Artificial Intelligence}{Curso gratuito ofrecido por Stanford}{Online}{}{https://www.ai-class.com/}
+\cventry{2011}{Machine Learning}{Curso gratuito ofrecido por Stanford}{Online}{}{http://www.ml-class.org/course/auth/welcome}
+%\cventry{2011}{Introduction to Databases}{Curso gratuito ofrecido por Stanford}{Online}{}{http://www.db-class.org/course/auth/welcome}
+\cventry{2011}{Curso de inglés}{EF International Language Centers}{Seattle}{}{Realizado entre Abril y Septiembre}
+\cventry{2010}{Simposio STSIVA}{Escuela Colombiana de Ingeniería}{Bogotá}{}{Simposio de tratamiento de señales, imágenes y visión artificial}
+\cventry{2010}{Minicurso Visión infrarroja}{Escuela Colombiana de Ingeniería}{Bogotá}{}{Visión infrarroja: Teoría y aplicaciones, durante el simposio STSIVA}
+\cventry{2009}{Curso de microcontroladores Freescale}{Escuela Colombiana de Ingeniería}{Bogotá}{}{Programación de microcontroladores Freescale organizado por la rama estudiantil de la IEEE}
+
+\section{Experiencia}
+\subsection{Profesional}
+\cventry{2014-}{Programador web}{Visual Engineering}{Barcelona}{}{Durante mi estancia en Visual estuve encargado de implementar diferentes soluciones web y mobile, dentro de las cuales están: \newline{}Desarrollar una red social de familias usando el framework de python Django.\newline{}Corregir bugs e incidencias en la app mobile de Zara para Blackberry.\newline{}Incrementar la cobertura de tests para la app web mobile de Zara.\newline{}Desarrollar una single-page application de venta de camisas para Massimo Dutti.\newline{}Adición de algunas funcionalidades a app web para gas natural}
+\cventry{2014-}{Programador web, Sys-admin}{Linkgua Semantic}{Barcelona}{}{Estuve en el equipo de desarrollo de esta aplicación web de lectura con análisis semantico. Me encargué de crear toda la estructura para ponerla en producción y gestionar los deploys. Ahora me encargo de mantener su correcto funcionamiento.}
+\cventry{2012--2014}{Operaciones}{Spamina}{Barcelona}{}{Realización de scripts para automatización de tareas.\newline{}Monitorización y control de servidores.\newline{}Manejo de incidencias en los sistemas.}
+\subsection{Otros}
+\cventry{2011}{Especialista en sistemas de vigilancia}{Activar}{Bogota}{}{Instalación y mantenimiento de sistema de vigilancia en servidores con Zoneminder.}
+
+\section{Idiomas}
+\cvlanguage{Español}{Nativo}{}
+\cvlanguage{Inglés}{Nivel medio}{}
+
+\section{Premios}
+\cventry{2009}{Robótica}{V Olimpiada Nacional de Robot Ecibot, Escuela Colombiana de Ingeniería}{Bogotá}{}{Primer puesto en la categoría seguidor de línea básico}
+
+\closesection{}
+%\pagebreak{}
+
+\section{Conocimientos}
+\cvcomputer{SO}{Gnu/Linux (Debian, Ubuntu, Archlinux, Mandriva, RedHat, Fedora, CentOS), FreeBSD, Windows}{Programación Web}{Django, Flask, PhalconPHP, Node, Backbonejs, Emberjs, jQuery, Google app engine}
+\cvcomputer{Programación}{Javascript, C/C++, Python, PHP, Ruby, Matlab/Octave, Bash/Shell, Zsh/Shell, sed, \LaTeX, Java}{Bases de datos}{MySQL, MongoDB}
+\cvcomputer{Diseño Web}{HTML5, CSS3, SASS}{Librerías IA}{OpenCV, FANN, scikit-learn}
+\cvcomputer{Herramientas Linux}{Nagios, Ansible, Docker, KVM, Virt-manager, BackupPC, Dokuwiki, Wikimedia, Logstash/Kibana}{Utilidades Web}{RequireJS, Grunt, Bower, Mocha, Jasmine}
+
+\section{Intereses}
+\cvlistitem{Fútbol}
+\cvlistitem{Hiking}
+\cvlistitem{Ciclísmo}
+\cvlistitem{Running}
+
+\renewcommand{\listitemsymbol}{-} % change the symbol for lists
+
+\section{Proyectos}
+\cvlistitem{Aplicación web: Red internacional de familias https://www.ifamilynetworks.com}
+\cvlistitem{Aplicación web: Lector de libros con analisis semantico https://www.linkgua-books.com}
+\cvlistitem{Aplicación web: Lector de noticias con analisis semantico https://www.linkgua-semantic.com}
+\cvlistitem{Puesta en funcionamiento y mantenimiento de servidores Linux para sistemas de vigilancia, realizado para Activar SA}
+\cvlistitem{Manejo de dispositivos remotos mediante comandos gestuales, realizado para la materia de Vision Artificial en la Escuela Colombiana de Ingeniería}
+\cvlistitem{Robot seguidor de linea y de resolución de laberintos, realizado para participar en la V Olimpiada Nacional de Robot Ecibot}
+\cvlistitem{Collar de perros con localizador por GPS, Proyecto realizado en la Universidad}
+\cvlistitem{Página web del juego tres en línea 3D con adversario del sistema para probar el algoritmo min max}
+\cvlistitem{Reconocimiento de figuras geométricas y números de placas mediante cámara web. Proyecto realizado para reforzar el conocimiento de visión artificial}
+
+
+%\section{Extra 1}
+%\cvlistitem{Item 1}
+%\cvlistitem{Item 2}
+%\cvlistitem[+]{Item 3}            % optional other symbol
+
+%\renewcommand{\listitemsymbol}{-} % change the symbol for lists
+
+%\section{Extra 2}
+%\cvlistdoubleitem{Item 1}{Item 4}
+%\cvlistdoubleitem{Item 2}{Item 5 \cite{book1}}
+%\cvlistdoubleitem{Item 3}{}
+
+% Publications from a BibTeX file without multibib\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% for BibTeX numerical labels
+%\nocite{*}
+%\bibliographystyle{plain}
+%\bibliography{publications}       % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}   % 'publications' is the name of a BibTeX file
+
+\end{document}
+
+
+% end of file

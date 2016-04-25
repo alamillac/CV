@@ -1,0 +1,24 @@
+<article class="section">
+    <header class="section-header">
+        <div class="left-info">
+            <div class="line"></div>
+        </div>
+        <h4 class="right-info">{{title}}</h4>
+    </header>
+    <div class="section-content">
+    {{#each subsections}}
+    <div class="section-element">
+        <p class="left-info">
+        </p>
+        <div class="right-info section-content-title">
+            <p>
+                {{title}}
+            </p>
+        </div>
+    </div>
+    {{#each list}}
+        {{> subsection_element sideNote=year description=description title=title place=place }}
+    {{/each}}
+    {{/each}}
+    </div>
+</article>

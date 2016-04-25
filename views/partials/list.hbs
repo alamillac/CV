@@ -1,0 +1,31 @@
+<article class="section">
+    <header class="section-header">
+        <div class="left-info">
+            <div class="line"></div>
+        </div>
+        <h4 class="right-info">{{list.title}}</h4>
+    </header>
+    <div class="section-content">
+        <div class="section-element">
+            <p class="left-info">
+            </p>
+            <div class="right-info">
+                {{#if circle}}
+                <ul class="new-style circle-list">
+                {{else}}
+                <ul class="new-style minus-list">
+                {{/if}}
+                {{#each list.items}}
+                    <li>
+                        {{#if html}}
+                        {{{html}}}
+                        {{else}}
+                        {{text}}
+                        {{/if}}
+                    </li>
+                {{/each}}
+                </ul>
+            </div>
+        </div>
+    </div>
+</article>

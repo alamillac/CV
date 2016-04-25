@@ -1,0 +1,62 @@
+\documentclass[11pt,a4paper]{moderncv}
+\moderncvtheme[blue]{classic}
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.8]{geometry}
+\firstname{\VAR{user.firstname}}
+\familyname{\VAR{user.lastname}}
+\title{\VAR{user.profession}}
+\address{\VAR{user.address1}}{\VAR{user.address2}}
+\email{\VAR{user.email}}
+\photo[64pt]{foto}
+\quote{\VAR{description}}
+
+\begin{document}
+\maketitle
+
+\section{\VAR{studies.academic.title}}
+%% for item in studies.academic['items']
+\cventry{\VAR{item.year}}{\VAR{item.degree}}{\VAR{item.university}}{\VAR{item.city}}{}{}
+%% endfor
+
+\section{\VAR{studies.other.title}}
+%% for item in studies.other['items']
+\cventry{\VAR{item.year}}{\VAR{item.degree}}{\VAR{item.university}}{\VAR{item.city}}{}{\VAR{item.description.text}}
+%% endfor
+
+\section{\VAR{experience.title}}
+%% for subsection in experience.subsections
+\subsection{\VAR{subsection.title}}
+%% for item in subsection.list
+\cventry{\VAR{item.year}}{\VAR{item.title}}{\VAR{item.place}}{\VAR{item.city}}{}{\VAR{item.description.text}}
+%% endfor
+%% endfor
+
+\section{\VAR{languages.title}}
+%% for item in languages['items']
+\cvlanguage{\VAR{item.name}}{\VAR{item.level}}{}
+%% endfor
+
+\section{\VAR{awards.title}}
+%% for item in awards['items']
+\cventry{\VAR{item.year}}{\VAR{item.field}}{\VAR{item.name}}{\VAR{item.city}}{}{\VAR{item.description.text}}
+%% endfor
+
+\closesection{}
+\section{\VAR{skills.title}}
+%% for item in skills['items']
+\cvcomputer{\VAR{item.name1}}{\VAR{item.list1}}{\VAR{item.name2}}{\VAR{item.list2}}
+%% endfor
+
+\section{\VAR{hobbies.title}}
+%% for item in hobbies['items']
+\cvlistitem{\VAR{item.text}}
+%% endfor
+
+\renewcommand{\listitemsymbol}{-}
+
+\section{\VAR{projects.title}}
+%% for item in projects['items']
+\cvlistitem{\VAR{item.text}}
+%% endfor
+
+\end{document}

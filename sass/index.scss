@@ -1,0 +1,190 @@
+@import "base";
+@import "fa/font-awesome.scss";
+
+.mainContainer {
+    @extend .container;
+    font-family: $font-family-default;
+    color: $color-font;
+
+    ul.new-style {
+        list-style: none;
+        padding:0;
+        margin:0;
+
+        li {
+            padding-left: 1em;
+            text-indent: -.7em;
+        }
+
+        li:before {
+            margin-right: 5px;
+            color: $color-font-title;
+        }
+    }
+
+    ul.minus-list {
+        li:before {
+            font: normal normal normal 14px/1 FontAwesome;
+            content: "\f068";
+        }
+    }
+
+    ul.circle-list {
+        li:before {
+            font: normal normal normal 14px/1 FontAwesome;
+            content: "\f10c";
+        }
+    }
+
+    .line {
+        height: 10px;
+        background-color: $blue-primary;
+    }
+
+    .header {
+        @extend .row;
+        margin-top: 150px;
+
+        .wrapper {
+            .name {
+                @extend .col-md-6;
+
+                h1 {
+                    font-size: 5.5em;
+                }
+
+                h3 {
+                    color: $color-font-info;
+                    font-size: 2.7em;
+                    font-style: italic;
+                }
+            }
+
+            .contact {
+                @extend .col-md-6;
+
+                .fa {
+                    margin-right: 10px;
+                }
+
+                @media (max-width: $width-min-media) {
+                    margin-top: 40px;
+                }
+
+                address {
+                    float: right;
+                    color: $color-font-info;
+                    font-size: 1.7em;
+                    line-height: 1.2em;
+                    font-style: italic;
+                    text-align: right;
+                    padding-right: 25px;
+                    display: inline-block;
+                    margin-top: 42px;
+
+                    a {
+                        color: $color-font-info;
+                    }
+
+                    .fa-envelope-o {
+                        font-size: 17px;
+                    }
+                }
+
+                .picture {
+                    @media (min-width: $width-min-media) {
+                        float: right;
+                    }
+
+                    padding: 7px;
+                    border-style: solid;
+                    border-color: $color-border-img;
+                    border-width: 1px;
+                    display: inline-block;
+
+                    img {
+                        width: 140px;
+                    }
+                }
+            }
+        }
+    }
+
+    .description {
+        @extend .text-center;
+        color: $color-font-title;
+        width: 65%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 2em;
+        font-style: italic;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        line-height: 35px;
+    }
+
+    .section {
+        .left-info {
+            display: table-cell;
+            text-align: right;
+            width: 142px;
+        }
+
+        .right-info {
+            display: table-cell;
+            padding-left: 20px;
+
+            .element-description {
+                font-size: 0.8em;
+            }
+
+            p {
+                margin: 0px;
+            }
+        }
+
+        .section-header {
+            display: table;
+            color: $color-font-title;
+            margin: 20px 0px;
+
+            .left-info {
+                vertical-align: middle;
+            }
+
+            h4 {
+                font-size: 2.4em;
+            }
+        }
+
+        .section-content {
+            display: table;
+            font-size: 1.9em;
+
+            .section-content-title {
+                color: $color-font-title;
+                font-size: 1.1em;
+            }
+        }
+
+        .section-wrapper {
+            @extend .row;
+
+            .section-content-2 {
+                @extend .col-md-6;
+                @extend .section-content;
+
+                .right-info {
+                    font-size: 0.95em;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    margin-bottom: 130px;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2em;
+}
