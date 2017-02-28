@@ -142,7 +142,18 @@
                 "title": "Profesional",
                 "list": [
                 {
-                    "year": "2014-",
+                    "year": "2016-",
+                    "title": "Programador web",
+                    "place": "Unnax",
+                    "city": "Barcelona",
+                    "description": {
+                        "text": [
+                            "Desarrollo de aplicaciones para manejo de dinero"
+                        ]
+                    }
+                },
+                {
+                    "year": "2014-2016",
                     "title": "Programador web",
                     "place": "Visual Engineering",
                     "city": "Barcelona",
